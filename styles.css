@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body{
+    border: 1px solid black;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 7px;
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+}
+
+#container_foto{
+    background-color: rgb(112, 112, 104);
+    background-color: none;
+    padding: 40px 0 0 0;
+    width: 70px;
+}
+
+.foto_pribadi{
+    text-align: center;
+    margin: 0 10px 0 0px;
+
+}
+
+.foto_pribadi img{
+    border-radius: 100%;
+    width: 70px;
+}
+
+#container_biodata{
+    background-color: none ;
+    margin: 0 10px 0 0;
+    width: 190px;
+}
+
+#container_content{
+    background-color: rgb(221, 221, 198);
+    padding: 40px 0 0 10px;
+    width: 390px;
+}
+
+#biodata_krs{
+    background-color: none;
+    display: flex;
+}
+
+#container_krs{
+    background-color: none;
+    width: 190px;
+}
+
+#container_mhs_lainnya{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.foto_mhs{
+    text-align: center;
+    margin: 0 10px 0 0px;
+}
+
+.foto_mhs img{
+    border-radius: 100%;
+    width: 70px;
+}
+
+.mhs_lainnya{
+    text-align: center;
+}
+
+.rekomendasi{
+    padding: 0 5px 0 0;
+    text-align: justify;
+}
